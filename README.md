@@ -25,81 +25,86 @@
 ## Results
 
 	Rendering 100000 templates:
-
-	ECT
-	  Escaped   : 2180ms
-	  Unescaped : 133ms
-	  Total     : 2313ms
-
-	Dust
-	  Escaped   : 2547ms
-	  Unescaped : 363ms
-	  Total     : 2910ms
-
-	Hogan.js
-	  Escaped   : 3252ms
-	  Unescaped : 758ms
-	  Total     : 4010ms
-
-	Gaikan
-	  Escaped   : 4288ms
-	  Unescaped : 85ms
-	  Total     : 4373ms
-
-	Fest
-	  Escaped   : 4179ms
-	  Unescaped : 265ms
-	  Total     : 4444ms
-
-	EJS without `with`
-	  Escaped   : 4526ms
-	  Unescaped : 485ms
-	  Total     : 5011ms
-
-	doT
-	  Escaped   : 5329ms
-	  Unescaped : 82ms
-	  Total     : 5411ms
-
-	Swig
-	  Escaped   : 5020ms
-	  Unescaped : 407ms
-	  Total     : 5427ms
-
-	Underscore
-	  Escaped   : 5775ms
-	  Unescaped : 2486ms
-	  Total     : 8261ms
-
-	Eco
-	  Escaped   : 8512ms
-	  Unescaped : 991ms
-	  Total     : 9503ms
-
-	EJS
-	  Escaped   : 6316ms
-	  Unescaped : 2734ms
-	  Total     : 9050ms
-
-	Handlebars.js
-	  Escaped   : 7815ms
-	  Unescaped : 2573ms
-	  Total     : 10388ms
-
-	Jade without `with`
-	  Escaped   : 8566ms
-	  Unescaped : 2982ms
-	  Total     : 11548ms
-
-	CoffeeKup
-	  Escaped   : 4968ms
-	  Unescaped : 9983ms
-	  Total     : 14951ms
-
-	Jade
-	  Escaped   : 18330ms
-	  Unescaped : 12095ms
-	  Total     : 30425ms
+    
+    Nunjucks
+      Escaped   : 2982ms
+      Unescaped : 1173ms
+      Total     : 4155ms
+    
+    ECT
+      Escaped   : 1476ms
+      Unescaped : 88ms
+      Total     : 1564ms
+    
+    Dust
+      Escaped   : 1883ms
+      Unescaped : 357ms
+      Total     : 2240ms
+    
+    Hogan.js
+      Escaped   : 1883ms
+      Unescaped : 342ms
+      Total     : 2225ms
+    
+    Gaikan
+      Escaped   : 1654ms
+      Unescaped : 55ms
+      Total     : 1709ms
+    
+    Fest
+      Escaped   : 1642ms
+      Unescaped : 238ms
+      Total     : 1880ms
+    
+    EJS without `with`
+      Escaped   : 3289ms
+      Unescaped : 440ms
+      Total     : 3729ms
+    
+    doT
+      Escaped   : 2137ms
+      Unescaped : 71ms
+      Total     : 2208ms
+    
+    Swig
+      Escaped   : 3691ms
+      Unescaped : 263ms
+      Total     : 3954ms
+    
+    Underscore
+      Escaped   : 1909ms
+      Unescaped : 1138ms
+      Total     : 3047ms
+    
+    EJS
+      Escaped   : 5624ms
+      Unescaped : 2293ms
+      Total     : 7917ms
+    
+    Eco
+      Escaped   : 4483ms
+      Unescaped : 661ms
+      Total     : 5144ms
+    
+    Handlebars.js
+      Escaped   : 4371ms
+      Unescaped : 2763ms
+      Total     : 7134ms
+    
+    Jade without `with`
+      Escaped   : 5044ms
+      Unescaped : 1226ms
+      Total     : 6270ms
+    
+    CoffeeKup
+      Escaped   : 2688ms
+      Unescaped : 5505ms
+      Total     : 8193ms
+    
+    Jade
+      Escaped   : 10943ms
+      Unescaped : 8044ms
+      Total     : 18987ms
 
 ## Usage
 

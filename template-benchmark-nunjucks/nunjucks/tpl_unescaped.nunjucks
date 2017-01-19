@@ -1,0 +1,16 @@
+<html>
+	<head>
+		<title>{% raw %}{{ title }}{% endraw %}</title>
+	</head>
+	<body>
+		<p>{% raw %}{{ text }}{% endraw %}</p>
+		{% if projects.length %}
+			{% for project in projects %}
+				<a href="{% raw %}{{ project.url }}{% endraw %}">{% raw %}{{ project.name }}{% endraw %}</a>
+				<p>{% raw %}{{ project.description }}{% endraw %}</p>
+			{% endfor %}
+		{% else %}
+			No projects
+		{% endif %}
+	</body>
+</html>
