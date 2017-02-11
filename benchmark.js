@@ -16,6 +16,7 @@ var handlebars = require('./handlebars/handlebars.js');
 var coffeekup = require('./coffeekup/coffeekup.js');
 var underscore = require('./underscore/underscore.js');
 var gaikan = require('./gaikan/gaikan.js');
+var nunjucks = require('././nunjucks.js');
 
 var test = function(name, sample, cb) {
 	var i = 0;
@@ -69,7 +70,8 @@ var samples = [
 	{ name : 'Gaikan', sample: gaikan },
 	{ name : 'Hogan.js', sample : hogan },
 	{ name : 'Dust', sample : dust },
-	{ name : 'ECT', sample : ect }
+	{ name : 'ECT', sample : ect },
+    { name : 'Nunjucks', sample : nunjucks }
 ];
 
 var runTests = function () {
